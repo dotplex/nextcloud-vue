@@ -1,6 +1,6 @@
-const path = require('path');
-const { merge } = require('webpack-merge');
-const webpackConfig = require('./webpack.dev.js');
+const path = require('path')
+const { merge } = require('webpack-merge')
+const webpackConfig = require('./webpack.dev.js')
 
 const newConfig = Object.assign({}, webpackConfig, {
 	externals: {},
